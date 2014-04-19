@@ -1,3 +1,16 @@
+.container {
+	background-color: black;	
+}
+header {
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    color: black;
+    font-style: oblique;
+    height: 100px;
+    width: 1897px;
+    }
+
+
 body {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -5,3 +18,52 @@ body {
     font-style: oblique;
     color: silver;
 }
+
+h1 {
+	font-style: oblique;
+	font-size: 100px;
+	font-color: lavender;
+}
+
+
+footer {
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav-bar {
+	color: lavender;
+	font-style: oblique;
+	/*text-align: center;*/
+	font-size: 40px;
+	/*text-align: center;*/
+
+}
+
+
+
+.albumone{
+	background-color: none;
+	height: 750px;
+	width: 600px;
+	float: left;
+	padding: 40px;
+
+
+}
+.albumtwo{
+	background-color: none;
+	box-shadow: 100px;
+	padding: 50px;
+
+}
+.albumthree{
+	background-color: none;
+	padding: 50px;
+
+}
+
+
+
+
