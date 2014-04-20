@@ -1,11 +1,14 @@
-.container {
-	background-color: black;	
+.page-container {
+	background-color: black;
+	width: 80%;
+	margin: 0 auto;	
 }
 header {
     margin-bottom: 30px;
     border-bottom: 1px solid;
     color: black;
     font-style: oblique;
+    text-align: center;
     height: 100px;
     width: 1897px;
     }
@@ -23,27 +26,19 @@ h1 {
 	font-style: oblique;
 	font-size: 100px;
 	font-color: lavender;
-}
-
-
-footer {
-
-    padding-left: 15px;
-    padding-right: 15px;
+	text-align: center;
 }
 
 .nav-bar {
 	color: lavender;
 	font-style: oblique;
-	/*text-align: center;*/
+	text-align: center;
 	font-size: 40px;
-	/*text-align: center;*/
 
 }
 
 
-
-.albumone{
+/*.albumone{
 	background-color: none;
 	height: 750px;
 	width: 600px;
@@ -60,9 +55,94 @@ footer {
 }
 .albumthree{
 	background-color: none;
-	padding: 50px;
-
+	padding: 50px;*/
+	
+nav{
+	list-style-type: none;
 }
+.nav {
+	background: grey;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	width: 100%;
+}
+.nav li{
+	display: inline-block;
+	text-align: center;
+	border: 2px solid black;
+}
+.nav ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+.album1{
+	margin: 0 auto;
+	width: 100%;
+}
+.album1 ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+.album1 li {
+	display: inline-block;
+	border: 2px solid black;
+}
+.album2{
+	margin: 0 auto;
+	width: 100%;
+}
+.album2 ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+
+.album2 li {
+	display: inline-block;
+	border: 2px solid black;
+}
+.album3{
+	margin: 0 auto;
+	width: 100%;
+}
+.album3 ul li img{
+	width: 350px;
+	height: 350px;
+	list-style-type: none;
+}
+
+.album3 li {
+	display: inline-block;
+	border: 2px solid black;
+}
+
+.album1, .album2, .album3{
+	display:none;
+}
+.show {
+	display: block;
+	-webkit-transition: all 1s ease;
+}
+
+ul li img.imgBig{
+
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	-webkit-transition: all 1s ease;
+}
+.hide{ 
+display: none;
+}
+
 
 
 

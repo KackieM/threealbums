@@ -2,51 +2,72 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Three Albums jQuery Project</title>
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
 	
-<div class="container">
-        
-
+<div class="page-container">
         <div class="header">
             <div class= "nav-bar">
-                <!-- <center> -->
-                    <a class="btn-lg" href="index.html">Home</a>
-                    <a class="btn-lg" href="about.html">About</a>
-                    <a class="btn-lg" href="blog.html">Blog</a>
-                    <a class="btn-lg"></a>
-                <!-- </center> -->
+                <a class="btn-lg" href="index.html">Home</a>
+                <a class="btn-lg" href="about.html">About</a>
+                <a class="btn-lg" href="blog.html">Blog</a>
             </div>
         </div>
+</div>
         
+<div class="page-container">
+    <center>
+        <h1>THE GALLERY</h1>
+    </center>
+    <nav class="nav">
+    <ul>
+        <li><a rel="album1"><img src="images/art/dooropenleft.jpg"></a></li>
+        <li><a rel="album2"><img src="images/art/youngmick.jpg"></a></li>
+        <li><a rel="album3"><img src="images/art/dooropenrightlookingup.jpg"></a></li>
+    </ul>
 
-        <div class="gallery-nav">
-            <center>
-                <h1>THE GALLERY</h1>
-            </center>
+</nav>
+<section class = "page-container">   
+    <div class="album1">
+        <h3>album1</h3>
+        <div class="album1photos">
+        <ul>
+            <li><img src="images/sheneedsair.jpg" alt=""></li>
+            <li><img src="images/arabellareading.jpg" alt=""></li>
+            <li><img src="images/theironyard.jpg" alt=""></li>
+        </ul>
         </div>
+    </div>
             
-            <div class="albumone">
-        	<a><img src="images/art/dooropenleft.jpg"></a>
+    <div class="album2">
+        <h3>album2</h3>
+        <div class="album2photos">
+        <ul>
+            <li><img src="images/art/mickupsidedown.jpg" = alt=""></li>
+            <li><img src="images/edistosunset.jpg" alt=""></li>
+            <li><img src="images/spencerbigsur.jpg" alt= ""></li>
+        </ul>
         </div>
-        <div class="albumtwo">
-        	<a><img src="images/art/youngmick.jpg"></a>
-        </div>
-        <div class="albumthree">
-        	<a><img src="images/art/dooropenrightlookingup.jpg"></a>
-        </div>
+    </div>
 
+    <div class="album3">
+        <h3>album3</h3>
+        <div class="album3photos">
+        <ul>
+            <!-- <li><img src="images/art/waholdalitree72.jpg" alt= ""></li> -->
+            <li><img src="images/art/kristenmcmenamyblue.jpg" alt= ""></li>
+            <li><img src="images/art/dooropenrightlookingup.jpg" alt= ""></li>
+        </ul>
+        </div>
+    </div>
+
+
+</section>
+</div>
 
 <script src="js/library/jquery-1.11.0.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
-
-
-
-
-
-
-
